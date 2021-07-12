@@ -10,7 +10,7 @@ better compression than G4. This encoder can:
 
 It uses the (Apache-ish licensed) Leptonica library:
   http://leptonica.com/
-
+Leptonica library用于相关图像格式的读取和转换，在我们的实际debug中，可以不用Leptonica library，使用自己的二值图像输入和输出函数。
 You'll need version 1.68.
 
 ## Known bugs
